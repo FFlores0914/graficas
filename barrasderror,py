@@ -1,0 +1,8 @@
+import matplotlib.pyplot as plt
+
+x = [1, 2, 3, 4, 5]
+y = [2, 4, 1, 5, 3]
+error = [0.5, 0.3, 0.7, 0.2, 0.4]
+
+plt.errorbar(x, y, yerr=error, fmt='o')
+plt.show()
